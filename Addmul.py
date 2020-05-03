@@ -5,8 +5,8 @@ def addmul(r,q):
     for i in range(len(r)):
         A1=r[i]
         Y=B1=S2[-1]
-        S1=[A1+B1,S1[0],S1[1],S1[2]]
         A2=S1[-1]
+        S1=[A1+B1,S1[0],S1[1],S1[2]]
         B2=q[i]
         S2=[A2*B2,S2[0],S2[1],S2[2],S2[3],S2[4],S2[5]]
         y.append(Y)
